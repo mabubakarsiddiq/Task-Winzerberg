@@ -6,11 +6,12 @@
 
 /* BackGround Image Start */
 .bg{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-image: url(./images/bg\ image.png);
     background-position: center;
     background-size: cover;
+
 }  
   /* BackGround Images End */
 
@@ -86,6 +87,15 @@
     }
     .bg p{
         padding-bottom: 60px;
+    }
+
+}
+@media screen and (max-width: 390px){
+    .bgtext h1 {
+        font-size: 50px;
+    }
+    .bgtext {
+        margin-top: 120px;
     }
 
 }
