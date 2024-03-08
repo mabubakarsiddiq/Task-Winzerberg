@@ -92,16 +92,22 @@
 }
 @media screen and (max-width: 390px){
     .bgtext h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
     .bgtext {
         margin-top: 120px;
+    }
+    .nav i{
+        padding-right: 0px;
     }
 
 }
 @media screen and (max-width: 375px){
     .bg p{
         width: 200px;
+    }
+    .nav i{
+        padding-right: 0px;
     }
     
 }
