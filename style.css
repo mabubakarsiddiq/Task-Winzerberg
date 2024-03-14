@@ -293,6 +293,89 @@ html,body{
 .sectionthree .boxsec .box2 p{
     padding: 10px 5px;
 }
+@media screen and (max-width: 1024px){
+    .sectionthree .boxsec .box{
+        width: 500px;
+        height: 190px;
+        margin: 0px 30px;
+        padding: 0px;   
+    }
+    .sectionthree .boxsec .box p{
+        padding: 5px 10px;
+    }
+    .sectionthree .boxsec .box1 h3{
+        margin: 30px 0px;
+
+        
+    }
+    .sectionthree .boxsec .box2 h3{
+        padding: 5px 0px;
+        
+    }
+}
+@media screen and (max-width: 768px){
+    .sectionthree .boxsec .box{
+        width: 400px;
+        height: 180px;
+        margin: 0px 10px;
+    }
+    .sectionthree .boxsec {
+
+        margin: 20px 90px;
+    }
+    .sectionthree{
+        height: 500px;
+    }
+}
+@media screen and (max-width: 425px){
+    .sectionthree .heading h1{
+        font-size: 42px;
+        margin: 0px ;
+        /* padding: 0px; */
+    }
+    .sectionthree .heading h5{
+
+        padding-top: 12px;
+        padding-left: 60px;
+    }
+    .sectionthree{
+        height: 400px;
+    }
+    .sectionthree .heading{
+
+        padding: 0px;
+    }
+    .sectionthree .boxsec {
+       
+
+        margin: 15px 10px;
+    }
+    .sectionthree .boxsec .box {
+        width: 250px;       
+        height: 150px;
+        margin: 0px 5px;
+    }
+    .sectionthree .boxsec .box2 p {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 320px){
+    .sectionthree .heading h1{
+        font-size: 25px;
+    }
+    .sectionthree .heading h5{
+        font-size: 20px;
+    }
+    .sectionthree .boxsec .box2 {
+        margin: -75px;
+      
+        padding: 0px;
+        width: 200px;
+        position: relative;
+        top: 170px;
+        right: 60px;
+    }
+}
 
 /* Section Three End  */
 
@@ -305,14 +388,17 @@ html,body{
 .sectionfour .cardone{
     height: 470px;
     display: flex;
-    
     justify-content: space-between;
     align-items: center;
+    
+
 
 }
 .sectionfour .cardone .c1img{
-    width: 50vw;
+    width: 700px;
     height: 400px; 
+    position: relative;
+    left: 30px;
 
 }
 .sectionfour .cardtext{
@@ -334,6 +420,57 @@ html,body{
     font-size: 20px;
 
 }
+@media screen and (max-width: 768px){
+
+    .sectionfour .cardone {
+        height: 300px;
+        overflow-y: hidden;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        right: 80px;
+    }
+    .sectionfour .cardone .c1img{
+        width: 550px;
+        height: 190px;
+    }
+}
+@media screen and (max-width: 425px){
+    .sectionfour .cardone{
+        height: 300px;
+        
+    }
+ 
+    .sectionfour .cardone .cardtext h4{
+        font-size: 30px;
+
+}
+.sectionfour .cardone .cardtext h5{
+    font-size: 20px;
+
+}
+.sectionfour .cardone .c1img{
+    display: no;
+
+}
+
+}
+@media screen and (max-width: 320px){
+    .sectionfour .cardone .c1logo{
+        width: 350px;
+        height: 200px;
+        margin: 0px 35px;
+    }
+    .sectionfour .cardone .cardtext h4{
+        font-size: 18px;
+    }
+    .sectionfour .cardone .cardtext h5{
+        font-size: 10px;
+    }
+}
+
+
+/* Section Four End */
 .section-five{
     width: 100%;
     height: 550px;
@@ -380,7 +517,84 @@ html,body{
     padding: 10px;
 
 }
-footer{
+@media screen and (max-width: 768px){
+    .container-box .box {
+        margin: 8px;
+    }
+    .secfive .para{
+        width: 400px;
+        font-size: 14px;
+        position: relative;
+        bottom: 65px;
+        
+    }
+    .secfive h5{
+        margin-bottom: 120px;
+        
+    }
+
+}
+@media screen and (max-width: 425px){
+    .container-box .box {
+        width: 200px;
+        height: 80px;
+    }
+    .secfive .para{
+        width: 300px;
+        font-size: 12px;
+        margin-top: 60px;
+        
+    }
+    .secfive h5{
+       padding: 8px;
+       margin-top: 45px;
+       
+        
+    }
+        
+ 
+    .container-box .c1b{
+        margin: 15px 15px;
+    }
+    .container-box .c2b{
+        margin: 15px 15px;
+    }
+}
+@media screen and (max-width: 375px){
+
+    .secfive .para{
+        width: 200px;
+        font-size: 12px;
+
+        
+    }
+    .secfive h5{
+       width:150px ;
+       padding-left: 0px;
+       padding-right: 0px;
+        
+         
+     }
+
+
+}
+@media screen and (max-width: 320px){
+    .section-five .heading h4{
+        font-size: 30px;
+    }
+    .secfive  .para{
+        width: 180px;
+        padding-left: 10px;
+    }
+    .secfive{
+
+    }
+}
+
+        /* End */
+
+ footer{
+    
     width: 100%;
     height: 80px;
     background-color: green;
@@ -396,5 +610,31 @@ footer .articel p{
     font-size: 10px;
     
 }
+@media screen and (max-width: 425px){
+    footer .articel p{
+        font-size: 6px;
+        width: 100px;
+
+
+    }
+    footer{
+        margin-bottom: 60px;
+    }
+}
+@media screen and (max-width: 320px){
+    footer .articel p{
+        font-size: 5px;
+        position: relative;
+        right: 25px;
+        
+    }
+    footer .articel h3{
+
+        position: relative;
+        right: 25px;
+        
+    }
+}
+
 
 
